@@ -96,10 +96,10 @@ h6 {
   font-size: 0.575rem;
   line-height: 1.25rem;
 }
-.container {
+/* .container {
   --gutter: 16px;
   width: 1024px;
   max-width: calc(100% - var(--gutter) * 2);
   margin-right: auto;
   margin-left: auto;
-}
+} */
