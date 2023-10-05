@@ -9,7 +9,7 @@
   --color-text2: #ffff;
   --color-text3: #494848;
   --primary-color: #34b298;
-  --color-background: #34B298;
+  --color-background: #34b298;
   --secondary-color: #1f6456;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -24,7 +24,7 @@
     Arial, sans-serif, system-ui, "Apple Color Emoji", "Segoe UI Emoji";
   --font-display: var(--font-body);
 }
-*{
+* {
   box-sizing: border-box;
 }
 html,
@@ -53,7 +53,6 @@ a {
   color: var(--color-links);
   text-decoration: none;
 }
-
 a:hover {
   color: var(--color-links-hover);
   text-decoration: underline;
@@ -88,7 +87,7 @@ h4 {
   line-height: 1.75rem;
 }
 
-h5{
+h5 {
   font-size: 1rem;
   line-height: 1.25rem;
 }
@@ -96,10 +95,3 @@ h6 {
   font-size: 0.575rem;
   line-height: 1.25rem;
 }
-/* .container {
-  --gutter: 16px;
-  width: 1024px;
-  max-width: calc(100% - var(--gutter) * 2);
-  margin-right: auto;
-  margin-left: auto;
-} */

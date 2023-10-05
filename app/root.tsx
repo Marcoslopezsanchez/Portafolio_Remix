@@ -2,6 +2,7 @@ import type { LinksFunction, V2_MetaFunction } from "@remix-run/node";
 import { LiveReload, Outlet, Links, Meta } from "@remix-run/react";
 import { NextUIProvider } from "@nextui-org/react";
 
+import globalShortStylesUrl from "~/stylesGlobal/global-short.css";
 import globalLargeStylesUrl from "~/stylesGlobal/global-large.css";
 import globalMediumStylesUrl from "~/stylesGlobal/global-medium.css";
 import globalStylesUrl from "~/stylesGlobal/global.css";
@@ -10,8 +11,13 @@ export const links: LinksFunction = () => [
   { rel: "stylesheet", href: globalStylesUrl },
   {
     rel: "stylesheet",
-    href: globalMediumStylesUrl,
+    href: globalShortStylesUrl,
     media: "print, (min-width: 640px)",
+  },
+  {
+    rel: "stylesheet",
+    href: globalMediumStylesUrl,
+    media: "print, (min-width: 900px)",
   },
   {
     rel: "stylesheet",
