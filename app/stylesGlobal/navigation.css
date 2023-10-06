@@ -26,7 +26,7 @@
 .portafolio-outlet {
   display: flex;
   flex-direction: column;
-  padding-left: 16rem;
+  padding-left: 10rem;
   padding-top: 2rem;
   padding-right: 4rem;
 }
@@ -62,36 +62,35 @@
   font-size: 16px;
 }
 /*Icons Redes*/
-.portafolio-card-links{
+.portafolio-card-links {
   font-size: 30px;
   display: flex;
-  margin-left: 80px;
+  justify-content: center;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.portafolio-card-content:hover .portafolio-card-links{
+.portafolio-card-content:hover .portafolio-card-links {
   right: 10px;
   border-radius: 10px 10px 10px 10px;
 }
-.portafolio-card-content .portafolio-card-links li:nth-child(1):hover{
+.portafolio-card-content .portafolio-card-links li:nth-child(1):hover {
   color: #ffff00;
 }
-.portafolio-card-content .portafolio-card-links li:nth-child(2):hover{
+.portafolio-card-content .portafolio-card-links li:nth-child(2):hover {
   color: #0a66c2;
 }
-.portafolio-card-content .portafolio-card-links li:nth-child(3):hover{
+.portafolio-card-content .portafolio-card-links li:nth-child(3):hover {
   color: #000000;
 }
-.portafolio-card-content .portafolio-card-links li:nth-child(4):hover{
+.portafolio-card-content .portafolio-card-links li:nth-child(4):hover {
   color: #1d9bf0;
 }
 /* links */
 .portafolio__links {
   list-style: none;
   position: relative;
-  padding-left: 1.898em;
-  padding-right: 1em;
+  text-align: center;
   margin-top: 0;
   font-size: 1.875em;
 }
@@ -132,4 +131,27 @@ button:hover span {
 li {
   padding: 10px;
   list-style: none;
+}
+@media only screen and (min-width: 640px) {
+}
+@media only screen and (min-width: 900px) {
+  .portafolio-perfile img {
+    display: block;
+    width: 20%;
+    margin: auto;
+    border-radius: 50%;
+  } 
+}
+@media only screen and (min-width: 1000px) {
+
+}
+@media only screen and (min-width: 1300px) {
+  .portafolio-perfile img {
+    display: block;
+    width: 40%;
+    margin: auto;
+    border-radius: 50%;
+  }
+  @media only screen and (min-width: 1500px) {
+  }
 }

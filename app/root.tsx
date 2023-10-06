@@ -22,7 +22,7 @@ export const links: LinksFunction = () => [
   {
     rel: "stylesheet",
     href: globalLargeStylesUrl,
-    media: "screen and (min-width: 1024px)",
+    media: "screen and (min-width: 1400px)",
   },
 ];
 

@@ -30,7 +30,7 @@ export default function PortafolioRoute() {
             <h5 className="portafolio-perfile-h5">Marcos Lopez</h5>
             <p>
               Ingeniero en sistemas computacionales, enfocado en Desarrollo
-              de
+              de Software.
               <br />
               <span>Junior Developer</span>
             </p>

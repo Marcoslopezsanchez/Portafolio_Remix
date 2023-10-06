@@ -42,6 +42,38 @@
 .card-content p {
   font-size: 16px;
 }
-.card-conteiner {
-  padding-top: 20px  ;
+
+@media only screen and (min-width: 640px) {
+}
+@media only screen and (min-width: 900px) {
+  .perfile-img {
+    height: 60vh;
+    width: auto;
+  }
+  .card {
+    width: 200px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 20px;
+  }
+  .card .card-content{
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .perfile-img {
+    height: 75vh;
+    width: auto;
+  }
+  .card {
+    width: 290px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 20px;
+  }
+  .card .card-content{
+    padding: 30px;
+  }
 }

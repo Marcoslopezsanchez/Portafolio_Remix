@@ -14,15 +14,15 @@ export default function PortafolioIndexRoute() {
   return (
     <main>
       <div className="portafolio_acerca">
-        <h1 style={{ textAlign: "center", color: "white" }}>
+        <h1 className="text-white flex justify-center font-sans">
           Marcos Lopez Sanchez
         </h1>
-        <h3 style={{ textAlign: "center", color: "white", marginTop: "10px" }}>
+        <h3 className="text-white flex justify-center font-sans">
           Junior Developer
         </h3>
         <section id="portafolio_index">
           <div className="portafolio-section">
-            <img className="perfile-img" src={perfile} alt="Marcos_Lopez" />
+            <img className="perfile-img " src={perfile} alt="Marcos_Lopez" />
             <div className="about-content">
               <div className="about-container">
                 <div className="card">
@@ -31,18 +31,18 @@ export default function PortafolioIndexRoute() {
                       <span></span>
                       <h3 className="portafolio-h3">Habilidades</h3>
                       <p>
-                        <span style={{ fontSize: "20px" }}>
+                        <span className="text-lg">
                           Experiencia en:
                         </span>
                         <br />
-                        <br /> <FaReact style={{ fontSize: "30px" }} />
-                        React <br />
-                        <FaJava style={{ fontSize: "30px" }} />
+                        <br /> <FaReact className="text-lg"/>
+                        React 
+                        <FaJava className="text-lg" />
                         java <br />
-                        <FaFileCode style={{ fontSize: "30px" }} />
+                        <FaFileCode className="text-lg" />
                         Spring Boot
                         <br />
-                        <FaMdb style={{ fontSize: "30px" }} /> Mongo DB
+                        <FaMdb className="text-lg"/> Mongo DB
                       </p>
                     </div>
                   </div>
