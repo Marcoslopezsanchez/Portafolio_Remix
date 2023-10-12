@@ -26,7 +26,11 @@ module.exports = {
       sans: ['Noto Sans JP', 'Noto Sans JP'],
       serif: ['Merriweather', 'serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'regal-blue': '#243c5a',
+      },
+    },
   },
   plugins: [],
 }
