@@ -2,8 +2,8 @@ import type { LinksFunction } from "@remix-run/node";
 import { Link, Outlet } from "@remix-run/react";
 
 import portafolio from "../../public/svg/icon-portafolio.svg";
+import about from "../../public/img/about.jpg"
 import navigationstylesUrl from "~/stylesGlobal/navigation.css";
-import Me from "../../public/img/about.jpg";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 
@@ -26,7 +26,7 @@ export default function PortafolioRoute() {
       <main className="portafolio-main">
         <div className="portafolio__container-perfile">
           <div className="portafolio-perfile">
-            <img src={Me} alt="Acerca-de-Mi" />
+            <img src={about}/>
             <h5 className="portafolio-perfile-h5">Marcos Lopez</h5>
             <p>
               Ingeniero en sistemas computacionales, enfocado en Desarrollo

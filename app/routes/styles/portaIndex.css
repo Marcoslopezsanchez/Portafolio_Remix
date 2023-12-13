@@ -1,6 +1,6 @@
 /*Css Home*/
 .perfile-img {
-  height: 75vh;
+  height: 70vh;
   width: auto;
 }
 .portafolio-section {
@@ -11,8 +11,8 @@
   display: flex;
 }
 .card {
-  width: 290px;
-  height: 450px;
+  width: 200px;
+  height: 350px;
   border-radius: 10px;
   box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
   margin: 20px;
@@ -26,11 +26,11 @@
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   background-color: var(--perfile);
 }
 .card .card-content p {
-  margin-top: 40px;
+  margin-top: 10px;
   color: var(--blanco);
 }
 .portafolio-h3 {
@@ -46,34 +46,6 @@
 @media only screen and (min-width: 640px) {
 }
 @media only screen and (min-width: 900px) {
-  .perfile-img {
-    height: 60vh;
-    width: auto;
-  }
-  .card {
-    width: 200px;
-    height: 450px;
-    border-radius: 10px;
-    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
-    margin: 20px;
-  }
-  .card .card-content{
-    padding: 15px;
-  }
 }
-@media only screen and (min-width: 1400px) {
-  .perfile-img {
-    height: 75vh;
-    width: auto;
-  }
-  .card {
-    width: 290px;
-    height: 450px;
-    border-radius: 10px;
-    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
-    margin: 20px;
-  }
-  .card .card-content{
-    padding: 30px;
-  }
+@media only screen and (min-width: 1300px) {
 }
