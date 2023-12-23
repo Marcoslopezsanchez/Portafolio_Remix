@@ -1,0 +1,140 @@
+.card__carrucel {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 50vh;
+}
+.card__container {
+  width: 70vw;
+  height: 50vh;
+  display: flex;
+}
+.card__content {
+  margin-inline: 1.7rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+.card__article {
+    padding: 5px;
+  width: 300px;
+  border-radius: 1.25rem;
+  overflow-x: hidden;
+}
+.card__image {
+    border-radius: 25px ;
+  position: relative;
+  background-color: var(--color-carrucel);
+}
+.card__data {
+  background-color: var(--color-border);
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.card__img {
+  width: 180px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.card__shadow {
+  width: 200px;
+  height: 200px;
+  background-color: var(--main-wrapper);
+  border-radius: 50%;
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  filter: blur(45px);
+}
+.card__name {
+  font-size: var(--color-border);
+  color: var(--color-carrucel);
+  margin-bottom: 0.75rem;
+}
+.card__description {
+  padding-bottom: 10px;
+}
+.card__button {
+  display: inline-block;
+  background-color: var(--color-carrucel);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  color: var(--main-wrapper);
+  font-weight: 600;
+}
+
+
+.carrucel  {
+  align-items: center;
+  background: #e3e3e3;
+  display: flex;
+  height: 12vh;
+  justify-content: center;
+}
+@mixin white-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+
+  &::before,
+  &::after {
+    @include white-gradient;
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll linear infinite;
+    animation-duration: 40s;
+    display: flex;
+    width: calc(250px * 14);
+  }
+
+  .slide {
+    height: 100px;
+    width: 250px;
+  }
+}

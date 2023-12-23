@@ -6,9 +6,6 @@ p{
   color: var(--blanco);
   text-align: center;
 }
-a {
-  font-size: 30px;
-}
  p .remix{
   font-size: 20px;
 }

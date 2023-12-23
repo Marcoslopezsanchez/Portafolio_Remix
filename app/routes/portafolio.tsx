@@ -52,7 +52,7 @@ export default function PortafolioRoute() {
                   </Link>
                 </li>
                 <li>
-                  <Link to=".">
+                  <Link to="https://twitter.com/MARCOS_LOPEZ492">
                     <FaTwitter />
                   </Link>
                 </li>

@@ -7,8 +7,16 @@
   display: flex;
   align-items: center;
 }
-.about-container{
-  display: flex;
+.about-container-card{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      150px,
+      1fr
+    )
+  );
+  gap: 6px;
 }
 .card {
   width: 200px;

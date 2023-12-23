@@ -24,7 +24,7 @@ export default function PortafolioIndexRoute() {
           <div className="portafolio-section">
             <img className="perfile-img " src={perfile} alt="Marcos_Lopez" />
             <div className="about-content">
-              <div className="about-container">
+              <div className="about-container-card">
                 <div className="card">
                   <div className="card-content">
                     <div className="card-conteiner">
