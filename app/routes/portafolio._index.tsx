@@ -14,12 +14,14 @@ export default function PortafolioIndexRoute() {
   return (
     <main>
       <div className="portafolio_acerca">
-        <h1 className="text-white flex justify-center font-sans">
-          Marcos Lopez Sanchez
-        </h1>
-        <h3 className="text-white flex justify-center font-sans">
-          Junior Developer
-        </h3>
+        <div className="portafolio__acerca">
+          <h1 className="text-white flex justify-center font-sans">
+            Marcos Lopez Sanchez
+          </h1>
+          <h3 className="text-white flex justify-center font-sans">
+            Junior Developer
+          </h3>
+        </div>
         <section id="portafolio_index">
           <div className="portafolio-section">
             <img className="perfile-img " src={perfile} alt="Marcos_Lopez" />
@@ -31,18 +33,16 @@ export default function PortafolioIndexRoute() {
                       <span></span>
                       <h3 className="portafolio-h3">Habilidades</h3>
                       <p>
-                        <span className="text-lg">
-                          Experiencia en:
-                        </span>
+                        <span className="text-lg">Experiencia en:</span>
                         <br />
-                        <br /> <FaReact className="text-lg"/>
-                        React 
+                        <br /> <FaReact className="text-lg" />
+                        React
                         <FaJava className="text-lg" />
                         java <br />
                         <FaFileCode className="text-lg" />
                         Spring Boot
                         <br />
-                        <FaMdb className="text-lg"/> Mongo DB
+                        <FaMdb className="text-lg" /> Mongo DB
                       </p>
                     </div>
                   </div>

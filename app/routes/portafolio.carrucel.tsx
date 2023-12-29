@@ -5,7 +5,6 @@ import Avatar2 from "../../public/img/avatar-2.png";
 import Avatar3 from "../../public/img/avatar-3.png";
 import Avatar4 from "../../public/img/avatar-4.png";
 
-import { FaReact, FaJava, FaFileCode, FaMdb } from "react-icons/fa6";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -27,13 +26,9 @@ export default function carrucel() {
                   <div className="card__data">
                     <h3 className="card__name">Habilidades</h3>
                     <p className="card__description">
-                      Experiencia en: React <FaReact className="text-lg" />
-                      java <FaJava className="text-lg" />
-                      Spring Boot
-                      <FaFileCode className="text-lg" />
-                      Mongo DB
-                      <FaMdb className="text-lg" />
+                    
                     </p>
+
                     <a href="#" className="card__button">
                       View More
                     </a>
@@ -94,7 +89,7 @@ export default function carrucel() {
             </div>
           </div>
         </section>
-        <section className="container__carrucel">
+        {/* <section className="container__carrucel">
           <div className="carrucel">
             <div className="slider">
               <div className="slide-track">
@@ -213,7 +208,7 @@ export default function carrucel() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </body>
     </html>
   );
